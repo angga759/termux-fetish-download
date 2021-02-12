@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1"
+  }
+}
