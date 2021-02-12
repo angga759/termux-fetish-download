@@ -38,7 +38,7 @@ var ext = ".jpg"
 }
 
 if(fs.existsSync(`./media/${random(`${ext}`)}`)) {
-console.log("File Name Already Exists\nAborted Operasion")
+console.log("File Name Already Exists\nAborted Operation")
 process.kill()
 }
 
